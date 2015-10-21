@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Action/ActionBase.cs">
+    <Files>
+      <File FileName="Assets/Action/ActionManager.cs" Line="25" Column="6" />
+      <File FileName="Assets/Examples/Move.cs" Line="11" Column="1" />
+      <File FileName="Assets/Action/ActionBase.cs" Line="9" Column="2" />
+      <File FileName="Assets/Action/Actions/ActionDelay.cs" Line="9" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>targetRow.gameObject.name</Value>
+          <Value>this.gameObject.name</Value>
+          <Value>this.CloneRows</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
