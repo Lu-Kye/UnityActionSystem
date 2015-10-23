@@ -26,6 +26,10 @@ namespace Action
 
 		// callback
 		protected UnityAction _callback;
+		public UnityAction Callback
+		{
+			get; set;
+		}
 
 		// Ctor
 		public ActionBase()
@@ -80,7 +84,7 @@ namespace Action
 		/// <summary>
 		/// Reset this action.
 		/// </summary>
-		protected virtual void Reset()
+		public virtual void Reset()
 		{
 			this._time = 0;
 			this._isFinished = false;

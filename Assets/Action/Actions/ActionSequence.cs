@@ -34,6 +34,21 @@ namespace Action
 		}
 
 		/// <summary>
+		/// Reset this action.
+		/// </summary>
+		public override void Reset()
+		{
+			base.Reset();
+			this._index = 0;
+			
+			for (int i = 0, max = this._actions.Length; i < max; i++)
+			{
+				var action = this._actions[i];
+				action.Reset();
+			}
+		}
+
+		/// <summary>
 		/// Get the current action.
 		/// </summary>
 		protected ActionBase Action
